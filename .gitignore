@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Dagster
+.dagster/
+.tmp_dagster_home_*/
+
+# Environment and secrets
+.env
+.env.local
+*.pem
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (large files)
+data/
+*.csv
+raw/olist/*.csv
+!docs/**/*.csv
+
+# Generated output
+output/
+!output/.gitkeep
+
+# Node modules
+node_modules/
+scripts/node_modules/
+
+# Telemetry & cache
+.nux/
+.telemetry/
+
+# Large data files
+*.ndjson
+
+# Logs and temp
+*.log
+tmp/
+temp/
+
+# Demo videos (too large for GitHub)
+demo/
+*.mp4
